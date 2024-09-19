@@ -31,11 +31,11 @@ The Terraform code is structured into modules to maintain clarity and reusabilit
   S3 bucket URL
   
 # Project Structure
-  ├── main.tf
-  ├── variables.tf
-  ├── outputs.tf
-  ├── provider.tf
-  └── README.md
+- ├── main.tf
+- ├── variables.tf
+- ├── outputs.tf
+- ├── provider.tf
+- └── README.md
   
 # Outcome
   This Terraform configuration automates the creation of:
