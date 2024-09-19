@@ -16,10 +16,10 @@ This project demonstrates how to automate the provisioning of AWS infrastructure
  
 # Terraform Code Overview
 The Terraform code is structured into modules to maintain clarity and reusability:
--> main.tf: Contains the main configuration to manage the resources.
--> variables.tf: Defines the variables used in the project (e.g., AWS region, instance types).
--> outputs.tf: Outputs relevant information such as EC2 instance public IP and S3 bucket URL.
--> provider.tf: Specifies the AWS provider configurations.
+- main.tf: Contains the main configuration to manage the resources.
+- variables.tf: Defines the variables used in the project (e.g., AWS region, instance types).
+- outputs.tf: Outputs relevant information such as EC2 instance public IP and S3 bucket URL.
+- rovider.tf: Specifies the AWS provider configurations.
  
 # Setup and Usage Instructions
 - Install Terraform: Ensure you have Terraform installed. Install Terraform
