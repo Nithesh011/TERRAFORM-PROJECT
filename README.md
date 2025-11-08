@@ -1,7 +1,8 @@
 # Terraform Project — Automated AWS Infrastructure for Data Workloads
 
-This repository provisions a **secure AWS data environment** using **Terraform** to support data engineering workloads and ETL pipelines.  
-It automates the creation of compute, storage, and networking components used to run **PySpark** or **Airflow-based data jobs**.
+This project provisions a secure AWS data environment using Terraform to support data engineering workloads and ETL pipelines.
+It automates the creation of compute, storage, and networking components used to run PySpark or Airflow-based data jobs.  
+This setup can also be used to host ETL jobs  by providing **S3 as a data lake** and **EC2 as compute** for transformation scripts.
 
 ---
 
@@ -113,6 +114,7 @@ s3_bucket_name = "data-lake-nithesh"
 ec2_public_ip  = "13.123.45.67"
 vpc_id         = "vpc-0ab123cd456ef7890"
 ```
+These outputs can be directly referenced in ETL tools such as **Apache Airflow** or **PySpark** scripts to connect to the provisioned S3 bucket and compute nodes.
 
 ---
 
